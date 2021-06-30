@@ -1,0 +1,12 @@
+name: TdB_D-SIDE_STMT
+title: TdB_D-SIDE_STMT
+username:
+account: d-side-stmt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4337108
+bundleId: 4772242
+url: https://d-side-stmt.shinyapps.io/TdB_D-SIDE_STMT/
+when: 1625043388.69651
+asMultiple: FALSE
+asStatic: FALSE
