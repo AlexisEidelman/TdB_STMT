@@ -1,4 +1,4 @@
-Ancien_ABC <- tabPanel(title = "Ancien ABC", 
+Ancien_ABC <- tabPanel(title = "Ancienneté des inscrits", 
                        value = "catA",
                        dashboardBody(
                          h1(paste0("Part des inscrits en Catégories A, B et C selon l'ancienneté")),
