@@ -1,7 +1,7 @@
 accueil <- tabPanel(title = "Accueil", 
                     value = "accueil",
                     dashboardBody(
-                      h1("Inscrits tenus de rechercher un emploi (Cat. A, B et C)"),
+                      h1("Inscrits tenus de rechercher un emploi (catégories A, B et C)"),
                       hr(),
                       h2(tags$p(mois_stat, style = "font-size: 20px;text-transform: uppercase;text-align: left;")),
                       h4("Données CVS-CJO, France métropolitaine"),
@@ -198,7 +198,7 @@ accueil <- tabPanel(title = "Accueil",
                       DTOutput('TabdesABC', width = "100%"),
                       
                       br(), br(), 
-                      h1("Inscrits non tenus de rechercher un emploi (Cat. D et E)"),
+                      h1("Inscrits non tenus de rechercher un emploi (catégories D et E)"),
                       hr(),
                       h2(tags$p(mois_stat, style = "font-size: 20px;text-transform: uppercase;text-align: left;")),
                       h4("Données CVS-CJO, France métropolitaine"),
